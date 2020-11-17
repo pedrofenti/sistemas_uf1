@@ -11,14 +11,13 @@ for VARIABLE in archivo.sh archivo bucles.sh license LICENSE; do
 done
 
 echo ""
-echo  "ARCOIRIS"
 
-for VARIABLE in A R C O I R I S; do
-	echo -e "\e[31m $VARIABLE \e[0m"
-	echo -e "\e[32m $VARIABLE \e[0m"
-	echo -e "\e[33m $VARIABLE \e[0m"
-	echo -e "\e[34m $VARIABLE \e[0m"
-	echo -e "\e[35m $VARIABLE \e[0m"
-	echo -e "\e[36m $VARIABLE \e[0m"
-	echo -e "\e[37m $VARIABLE \e[0m"
+for VARIABLE in ARCOIRIS; do
+      echo -e "\e[37m $VARIABLE \e[0m"
+      echo -e "\e[33m $VARIABLE \e[0m"
+      echo -e "\e[32m $VARIABLE \e[0m"
+      echo -e "\e[36m $VARIABLE \e[0m"
+      echo -e "\e[34m $VARIABLE \e[0m"
+      echo -e "\e[35m $VARIABLE \e[0m"
+      echo -e "\e[31m $VARIABLE \e[0m"
 done
